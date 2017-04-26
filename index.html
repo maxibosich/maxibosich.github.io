@@ -2,22 +2,122 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Maximiliano Bosich</title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h1>Maximiliano Bosich - Diseñador Web</h1>
+	<header class="container">
+		<div class="row">
+			<div class="col-md-10">
+				<h1>Maximiliano Bosich - Diseñador Web</h1>
+			</div>
+			<div class="col-md-2 navbar-right">
+				<img class="img-responsive logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" width="100" alt="html logo">
+			</div>
+		</div>
+		<nav class="navbar navbar-default barra">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <ul class="nav navbar-nav lista">
+		        <li><a href="#">Nosotros</a></li>
+		        <li><a href="#">Portfolio</a></li>
+		        <li><a href="#">Contacto</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
 	</header>
 
-	<main>
-		<p>Contenido va aqui</p>
+	<main class="container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Nosotros</h2>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
 	</main>
 
-	<footer>
-		<p>© 2017 - Maximiliano Bosich</p>
+	<div class="container text-center portafolio">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Portfolio</h2>
+			</div>
+			<div class="col-md-4">
+				<img src="http://placehold.it/300x250">
+				<div>
+					<h4 class="text-center">Diseño web</h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img src="http://placehold.it/300x250">
+				<div>
+					<h4 class="text-center">Responsive</h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img src="http://placehold.it/300x250">
+				<div>
+					<h4 class="text-center">Bootstrap</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container formulario">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center">Contacto</h2>
+				</div>
+				<form>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="yourname"></label>
+							<input type="text" class="form-control" id="yourname" placeholder="Nombre" required>
+						</div>
+						<div class="form-group">
+							<label for="yourmail"></label>
+							<input type="email" class="form-control" id="yourmail" placeholder="Email" required>
+						</div>
+						<div class="form-group">
+							<label for="yourphone"></label>
+							<input type="tel" class="form-control" id="yourphone" placeholder="Teléfono" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+						<label for="message"></label>
+						<input type="text" class="form-control mensaje" id="message" placeholder="Mensaje..." required>
+						</div>
+					</div>
+				</form>
+				<div class="col-md-12 text-center">
+					<a class="btn btn-default boton" href="#" role="button">Enviar mensaje</a>
+				</div>
+			</div>
+		</div>
+
+	<footer class="container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<a class="ion-social-linkedin-outline icono" href=""></a>
+				<a class="ion-social-twitter-outline icono" href=""></a>
+				<a class="ion-ios-email-outline icono" href=""></a>
+			</div>
+			<div class="col-md-12">
+				<p>© 2017 - Maximiliano Bosich</p>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>

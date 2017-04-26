@@ -1,3 +1,77 @@
-body{
-	font-family: sans-serif;
+/* font-family: 'Press Start 2P', cursive;
+   font-family: 'Bungee Inline', cursive;
+*/
+
+header{
+	font-family: "Bungee Inline", cursive;
+	padding: 25px 0;
+	background: #23395B;
+	color: white;
 }
+
+h1{
+	font-size: 43px;
+}
+
+.barra{
+	margin-top: 20px;
+}
+
+.lista{
+	font-size: 25px;
+}
+
+/*.lista li {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+*/
+
+body{
+	font-family: "Press Start 2P", cursive;
+}
+
+h2{
+	font-family: "Bungee Inline", cursive;
+}
+
+main{
+	background: #CBF7ED;
+	padding: 25px 0;
+}
+
+.portafolio{
+	padding: 25px 0;
+}
+
+.formulario{
+	background: url("../images/earth.jpeg");
+	background-size: cover;
+	color: white;
+	padding: 25px 0;
+}
+
+.boton{
+	color: white;
+    background-color: #F06543;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px 20px;
+    font-family: "Press Start 2P", cursive;
+    text-transform: uppercase;
+}
+
+footer{
+	background: #23395B;
+	color: white;
+	padding: 10px 0;
+}
+
+.icono{
+	font-size: 60px;
+	padding: 0 35px;
+}
+
+
+https://coolors.co/f06543-23395b-e8e9eb-8ea8c3-cbf7ed
