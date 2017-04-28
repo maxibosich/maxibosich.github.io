@@ -1,12 +1,15 @@
-/* font-family: 'Press Start 2P', cursive;
-   font-family: 'Bungee Inline', cursive;
+/* font-family: 'Passion One', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Bungee Inline', cursive;
+https://coolors.co/f06543-23395b-e8e9eb-8ea8c3-cbf7ed
 */
 
 header{
 	font-family: "Bungee Inline", cursive;
 	padding: 25px 0;
-	background: #23395B;
-	color: white;
+	background: url("../images/wireframe.jpeg");
+	background-size: cover;
+	height: 400px;
 }
 
 h1{
@@ -15,40 +18,55 @@ h1{
 
 .barra{
 	margin-top: 20px;
+	background: #C9C9C9;
 }
 
 .lista{
 	font-size: 25px;
 }
 
-/*.lista li {
-	padding-left: 50px;
-	padding-right: 50px;
+.lista li {
+	display: inline-block;
+	padding-left: 90px;
+	padding-right: 90px;
 }
-*/
+
 
 body{
-	font-family: "Press Start 2P", cursive;
+	font-family: "Passion One", cursive;
 }
 
 h2{
 	font-family: "Bungee Inline", cursive;
+	font-size: 32px;
 }
 
 main{
-	background: #CBF7ED;
+	background: url("../images/chess.jpeg");
+	background-size: cover;
 	padding: 25px 0;
+	height: 800px;
+	font-size: 23px;
 }
 
 .portafolio{
+	background: url("../images/create.jpeg");
+	background-size: cover;
 	padding: 25px 0;
+	height: 800px;
+}
+
+.logos {
+	max-height: 250px;
+	max-width: 300px;
 }
 
 .formulario{
-	background: url("../images/earth.jpeg");
+	background: url("../images/code.jpeg");
 	background-size: cover;
 	color: white;
 	padding: 25px 0;
+	height: 400px;
 }
 
 .boton{
@@ -56,16 +74,18 @@ main{
     background-color: #F06543;
     border-color: #fed136;
     border-radius: 3px;
-    font-size: 10px;
+    font-size: 20px;
     padding: 10px 20px;
-    font-family: "Press Start 2P", cursive;
+    font-family: "Righteous", cursive;
     text-transform: uppercase;
+    margin-top: 15px;
 }
 
 footer{
-	background: #23395B;
+	background: #A5A5A5;
 	color: white;
 	padding: 10px 0;
+	font-size: 30px;
 }
 
 .icono{
@@ -73,5 +93,6 @@ footer{
 	padding: 0 35px;
 }
 
-
-https://coolors.co/f06543-23395b-e8e9eb-8ea8c3-cbf7ed
+.imagen{
+	background-size: cover;
+}
